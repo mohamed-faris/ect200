@@ -75,3 +75,62 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
+
+/* Uni page */
+.university {
+  padding: 20px;
+  text-align: center;
+}
+
+.university img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.university a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.university a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
